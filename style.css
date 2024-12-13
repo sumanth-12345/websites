@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+   
+    background-color: black;
+    border: 1px solid;
+    display: flex;
+    padding: 5px;
+    font-size: 1rem;
+    justify-content: space-around;
+    width: 100%;
+    transition: 10s ease;
+
+    position: fixed;
+    top: 0px;
+    /* overflow: hidden; */
+}
+.box-1{
+    justify-content:space-around;
+    width: 350px;
+    /* border: 5px solid white; */
+    text-align: center;
+    cursor: pointer;
+    padding: 10PX;
+    border-radius: 10px;
+}
+
+.box-1 :hover {
+    background-color: white;
+    color: black;
+border-radius: 5px;
+}
+
+.container {
+   
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg); 
+     height:500px; 
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    /* overflow: hidden; */
+
+}
+
+.b {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    letter-spacing: 4px;
+    font-size: 6rem;
+    line-height: 1.2;
+}
+
+.item {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    position: relative;
+    top: -10px;
+}
+
+.item-1 {
+    color: white;
+    position: relative;
+    margin-top: 530px;
+    margin-left: 870px;
+    top: -10px;
+}
+
+.a {
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    width: fit-content;
+}
+
+.item-2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.item-3 {
+    background-color: white;
+    /* text-align: center; */
+    color: black;
+    font-size: 22px;
+    padding-left: 15pc;
+    padding-right: 16pc;
+    justify-content: center;
+}
+
+.item-4 {
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    padding-top: 50px;
+    padding-left: 15pc;
+    padding-right: 16pc;
+
+}
+
+.item-5 {
+    border-left: 10px solid;
+    width: 800px;
+    height: 130px;
+    margin-left: 240px;
+    margin-top: 40px;
+    background-color: aliceblue;
+    font-size: 22px;
+    word-spacing: 1em;
+}
+
+.item-6 {
+    display: flex;
+
+    margin-top: 50px;
+    justify-content: center
+}
+
+.item-7 {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.c {
+    padding-top: 30px;
+}
+
+.d {
+    background-color: black;
+    color: white;
+
+}
+
+.item-8 {
+    margin-top: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.item-9 {
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    gap: 5rem;
+    display: flex;
+    font-size: 50px;
+    width: 600px;
+    justify-content: space-around;
+    margin-left: 300px;
+    padding: 2px;
+
+}
+
+.item-9 :hover {
+    background-color: white;
+    color: brown;
+    transition: 0.5s ease;
+}
+
+.item-10 {
+    width: 600px;
+    height: 400px;
+    border: 2px solid;
+    margin-left: 300px;
+}
+
+.item-11 {
+    display: flex;
+
+    margin-top: 50px;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.item-12 {
+    margin-top: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+.g {
+    background-color: black;
+    color: white;
+}
+
+.m {
+    margin-left: 300px;
+    margin-top: 45px;
+
+}
+
+.item-13 {
+    display: flex;
+
+    margin-top: 50px;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+
+.item-14 {
+    width: 600px;
+    height: 100px;
+    /* border: 2px solid; */
+    /* margin-top: 10px; */
+    margin-left: 300px;
+
+}
+.item-15{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.z{
+     border: 1px solid;
+     padding: 20px;
+     margin-left: 300px;
+     margin-right: 300px;
+
+}
+.
+.item-16{
+    display: flex;
+    /* justify-content: center; */
+    margin-top:30px;
+}
+
+.k{
+    margin-top: 20px;
+    background-color: black;
+    margin-left: 300px;
+    width: fit-content;
+}
+
+.item-17{
+    
+    margin-top:200px;
+    text-align: center;
+    font-size: 30px;
+}
