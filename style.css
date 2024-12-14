@@ -4,42 +4,139 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-html,
-body{
-    width: 100%;
-    height: 100%;
-}
+
+
+
+
+     body, html {
+         margin: 0;
+         padding: 0;
+         height: 100%;
+        object-fit: contain;
+         
+     }
+
+     
+     .menu-bar {
+         position: fixed;
+         top: 0;
+         left: 0;
+         width: 100%;
+         background-color: black;
+         display: flex;
+         justify-content: center; /* Center the menu items */
+         align-items: center; /* Vertically align the menu items */
+         padding: 10px 0;
+         z-index: 1000; /* Keep the menu on top */
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for separation */
+     }
+
+
+         .menu-bar .col {
+             flex: 1; 
+             text-align: center;
+         }
+
+         
+         .menu-bar a {
+             color: white;
+             text-decoration: none;
+             font-size: 18px;
+             padding: 10px 20px;
+             display: block;
+         }
+
+             
+             .menu-bar a:hover {
+                 background-color: #575757;
+                 border-radius: 4px;
+             }
+
+     /* Add padding below the menu for the cover image */
+     .cover-image {
+         width: 100%;
+         height: 500px; /* Set a specific height for the cover image */
+         background-image: url('https://www.w3schools.com/w3images/coffeehouse.jpg'); /* Replace with your image URL */
+         background-size: cover; /* Ensure the image covers the container */
+         background-position: center; /* Center the image */
+         background-repeat: no-repeat; /* Prevent image repetition */
+         margin-top: 60px; /* Adjust to the height of your menu */
+         font-family: "Inconsolata", sans-serif;
+     }
+
+     
+
+     .cover-image {
+         flex: 1; 
+         
+     }
+
+     .w2 {
+         height: 400px;
+         text-align: center;
+
+     }
+     .w3 {
+         /text-align: center;/
+         display: flex;
+         gap: 20px;
+         height:100px;
+     }
+
+     .cafe{
+         text-align:center;
+         color:white;
+     }
+
+     .w4 {
+         padding: 20px;
+         width: 50%;
+         margin-top:40px;
+     }
+     .openFrom{
+         margin-left:5px;
+     }
+     .openFrom span{
+         padding:5px;
+         color:white;
+         background-color:black;
+         margin-left:20px;
+         font-size:15px;
+     }
+     .address-1{
+        background-color: #575757;
+        color: white;
+        width: fit-content;
+        margin-top: 250px;
+        margin-left: 10px;
+     }
+     .address-2{
+        margin-left:1000px ;
+        color: white;
+     }
+     .adress span{
+         font-size:15px;
+         color:white;
+     }
+     
+ 
 
 
 a {
     text-decoration: none;
     color: white;
-}
+} 
 
-.header {
-   
-    background-color: black;
-    /* border: 1px solid; */
-    display: flex;
-    padding: 0px;
-    /* font-size: 1rem; */
-    justify-content: space-around;
-    width: 100%;
-    transition: 10s ease;
-z-index: 9000;
-    position: fixed;
-    top: 0px;
-    
-}
 .box-1{
-    justify-content:space-around;
+    justify-content:space-between;
     width: 100%;
     /* border: 5px solid white; */
     text-align: center;
     cursor: pointer;
-    padding: 15px;
-    
+    padding: 10px;
+    /* background-color: yellow; */
     border-radius: 10px;
+gap: 2px;
     
 }
 
@@ -49,17 +146,15 @@ z-index: 9000;
 border-radius: 5px;
 }
 
-.container {
-   
-    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg); 
-     min-height: 65%; 
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    /* align-items: flex-end; */
-/* position: relative; */
-    /* overflow: hidden; */
 
+.item-1 {
+    color: white;
+    position: relative;
+    margin-top: 500px;
+    margin-left: 870px;
+
+      right: 10px;
+      
 }
 
 .b {
@@ -73,7 +168,7 @@ left: 600px;
     font-size: 5rem;
     line-height: 1.2;
 }
-
+ 
 .item {
     background-color: black;
     color: white;
@@ -91,14 +186,14 @@ left: 600px;
       bottom: 220px;
       right: 10px;
       
-}
+} 
 
 .a {
     font-size: 2rem;
     background-color: black;
     color: white;
     width: fit-content;
-}
+} 
 
 .item-2 {
     display: flex;
